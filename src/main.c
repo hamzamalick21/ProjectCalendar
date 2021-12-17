@@ -1,5 +1,6 @@
 /*
  * main.c
+ Done by Inhee Lee
  */
 #include "calendar.h"
 #include <stdio.h>
