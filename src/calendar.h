@@ -5,7 +5,11 @@
 #define CALENDAR_H
 
 #include <stdio.h>
+#include "calendar.h"
 #include <string.h>
-#include <stdlib.h>
 
-#endif /* CALENDAR_H */
+void recallevent();
+void inputevent(int count);
+
+#endif
+
