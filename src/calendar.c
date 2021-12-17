@@ -74,6 +74,7 @@ void inputevent(int count){
   printf("Enter the Name of the Event: \n");
   fgets(name, 20, stdin);
   strcpy(namearray[count],name);
+ /* allowing events with spaces (e.g. Happy Birthday) to be stored as a single string */
 }
 
 
